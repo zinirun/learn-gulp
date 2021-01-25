@@ -1,0 +1,8 @@
+{
+  "name": "learn-gulp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/zinirun/learn-gulp.git",
+  "author": "zinirun <heojj97@naver.com>",
+  "license": "MIT"
+}
