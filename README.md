@@ -11,7 +11,7 @@ pug, scss, 이미지 파일, 자바스크립트 파일을 다뤘다. 일반적�
 
 ### 작업 만들기
 
-#### src, pipe, dest
+#### ✔️ src, pipe, dest
 
 기본적인 로직은 다음과 같다.
 
@@ -23,7 +23,7 @@ const operation = () => gulp.src(파일의 위치)
 
 pug면 pug에 맞게, js면 js에 맞게 각각을 이러한 패턴으로 디자인할 수 있다. 직접 구현할 작업은 없을 정도로 gulp에 대한 플러그인이 잘 되어있다.
 
-#### series
+#### ✔️ series
 
 각각의 작업은 다음과 같이 시리즈로 묶는다.
 
@@ -34,7 +34,7 @@ export const dev = gulp.series([prepare, operation3]);
 
 export시 변수 이름 그대로 `gulp 변수이름`으로 시리즈의 작업을 수행할 수 있다. 위처럼 선언해놓은 시리즈를 시리즈 안에 삽입하는 것도 가능하다. 작업을 동시에 처리하고 싶다면 `series` 대신 `parallel`을 사용하면 된다.
 
-#### watch
+#### ✔️ watch
 
 작업 중 파일이 변경되었을 때의 작업도 설정할 수 있다.
 
